@@ -11,11 +11,11 @@
 #include "external_tests/trig_functions_et.h"
 
 // INTERNAl TESTS:
-//#include "internal_tests/semd_distributions_t.h"
-//#include "internal_tests/semd_functions_t.h"
-//#include "internal_tests/semd_operations_t.h"
-//#include "internal_tests/semd_popular_t.h"
-//#include "internal_tests/semd_t.h"
+#include "internal_tests/semd_distributions_t.h"
+#include "internal_tests/semd_functions_t.h"
+#include "internal_tests/semd_operations_t.h"
+#include "internal_tests/semd_popular_t.h"
+#include "internal_tests/semd_t.h"
 
 int main(int argc, char const *argv[])
 {

@@ -1,7 +1,37 @@
 ﻿  main.cpp
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(90,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(30): message : see reference to function template instantiation 'const semd<double> semd_operations::operator /<double>(const semd<double> &,const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(92): message : see reference to function template instantiation 'void blackScholesCallPrice<fp_type>(const semd<fp_type> &,const semd<fp_type> &,const semd<fp_type> &,const semd<fp_type> &,const semd<fp_type> &,semd<fp_type> &)' being compiled
+          with
+          [
+              fp_type=double
+          ]
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\external_src\main.cpp(73): message : see reference to function template instantiation 'void testBlackScholesPrice<double>(void)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_functions.h(46,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(30): message : see reference to function template instantiation 'const semd<double> semd_functions::log<double>(const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(81,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(30): message : see reference to function template instantiation 'const semd<double> semd_operations::operator *<fp_type>(const fp_type,const semd<fp_type> &)' being compiled
+          with
+          [
+              fp_type=double
+          ]
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(65,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(30): message : see reference to function template instantiation 'const semd<double> semd_operations::operator *<double>(const semd<double> &,const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(15,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(30): message : see reference to function template instantiation 'const semd<double> semd_operations::operator +<double>(const semd<double> &,const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_functions.h(62,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(31): message : see reference to function template instantiation 'const semd<double> semd_functions::sqrt<double>(const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(40,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(32): message : see reference to function template instantiation 'const semd<double> semd_operations::operator -<double>(const semd<double> &,const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_distributions.h(17,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(33): message : see reference to function template instantiation 'const semd<double> semd_distributions::normal::cdf<double>(const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_operations.h(114,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(34): message : see reference to function template instantiation 'const semd<double> semd_operations::operator -<double>(const semd<double> &)' being compiled
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\semd\semd_functions.h(38,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\internal_tests\semd_popular_t.h(34): message : see reference to function template instantiation 'const semd<double> semd_functions::exp<double>(const semd<double> &)' being compiled
   Generating code
-  0 of 3 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  82 of 159 functions (51.6%) were compiled, the rest were copied from previous compilation.
+    53 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   sse_vectorised_functions_x64.vcxproj -> D:\my_c_files\sse_vectorised_functions_x64\sse_vectorised_functions_x64\x64\Release\sse_vectorised_functions_x64.exe
