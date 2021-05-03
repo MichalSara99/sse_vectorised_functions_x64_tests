@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="external_src">
+      <UniqueIdentifier>{e2d4aab6-b854-472e-9e5e-08b8b9d3ccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external_tests">
+      <UniqueIdentifier>{081a615b-704b-4aa8-bd6b-c28b8e82bc2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="macros">
+      <UniqueIdentifier>{a8738c96-cf24-442d-b5db-e4cc176018ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="external_src\main.cpp">
+      <Filter>external_src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external_tests\basic_operations_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="macros\sse_macros.h">
+      <Filter>macros</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\basic_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\exp_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\log_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\normal_dist_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\special_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+    <ClInclude Include="external_tests\trig_functions_et.h">
+      <Filter>external_tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
